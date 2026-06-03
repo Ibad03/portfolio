@@ -15,7 +15,8 @@ const Home = () => {
 
 <div className='mt-13 sm:mt-16 flex gap-5'>
     <button className='bg-[#7b2cbf] py-2 px-2 font-medium rounded-b-2xl rounded-tl-2xl hover:text-black  text-white min-w-30'><a href="https://github.com/Ibad03/portfolio">Get Code</a></button>
-    <button className='bg-[#e019bc] min-w-30 py-2 px-2 font-medium rounded-br-2xl rounded-t-2xl hover:text-black  text-black hover:text-white'>Contact</button>
+    <button className='bg-[#e019bc] min-w-30 py-2 px-2 font-medium rounded-br-2xl rounded-t-2xl hover:text-black  text-black hover:text-white'><a href="/public/Ibad_CV.pdf" 
+    download={"public/Ibad_CV.pdf"}>Download CV</a></button>
 </div>
 
       </div>
