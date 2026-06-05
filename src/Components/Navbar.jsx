@@ -47,9 +47,10 @@ const Navbar = () => {
 </div>
 
 {/* mobile responsive  */}
-{
-    isOpen ? 
-<div className='w-full -mt-10 h-[70vh] bg-[#e019bc]'>
+
+<div  className={`w-full -mt-10 h-[70vh] bg-black transition-all duration-500 ${
+    isOpen ? "translate-x-0" : "-translate-x-full"
+  }`}>
 <ul className='flex flex-col gap-7  lg:hidden ml-10 sm:ml-20 text-white mt-10 pt-10'>
     <li className='hover:text-[#7b2cbf] font-medium text-lg hover:border-b-2 hover:border-[#7b2cbf] '>
         <a href="#">Home</a>
@@ -72,8 +73,8 @@ const Navbar = () => {
 </ul>
 
 </div>
-: ""
-}
+
+
     </nav>
   )
 }
