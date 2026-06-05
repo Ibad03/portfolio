@@ -17,27 +17,27 @@ const Navbar = () => {
 {/* Nav links  */}
 
 <ul className='flex gap-7 hidden lg:flex'>
-    <li className='hover:text-[#e019bc] font-medium text-lg hover:border-b-2 hover:border-[#7b2cbf] '>
+    <li className=' font-medium text-lg hover:border-b-2 hover:border-[#7b2cbf] '>
         <a href="#">Home</a>
     </li >
 
 
-    <li className='hover:text-[#e019bc] font-medium text-lg hover:border-b-2 hover:border-[#7b2cbf]'>
+    <li className=' font-medium text-lg hover:border-b-2 hover:border-[#7b2cbf]'>
         <a href="#">About Me</a>
     </li>
   
-    <li className='hover:text-[#e019bc] font-medium text-lg hover:border-b-2 hover:border-[#7b2cbf]'>
+    <li className=' font-medium text-lg hover:border-b-2 hover:border-[#7b2cbf]'>
         <a href="#">MY SKILLS</a>
     </li>
-    <li className='hover:text-[#e019bc] font-medium text-lg hover:border-b-2 hover:border-[#7b2cbf]'>
+    <li className=' font-medium text-lg hover:border-b-2 hover:border-[#7b2cbf]'>
         <a href="#">PROJECTS</a>
     </li>
-    <li className='hover:text-[#e019bc] font-medium text-lg hover:border-b-2 hover:border-[#7b2cbf]'>
+    <li className=' font-medium text-lg hover:border-b-2 hover:border-[#7b2cbf]'>
         <a href="#">CONTACT</a>
     </li>
 </ul>
 
-<div className='text-2xl hover:border-2 hover:border-[#e019bc] p-1 rounded-b-lg lg:hidden '>
+<div className='text-2xl hover:border-2  p-1 rounded-b-lg lg:hidden '>
     <GiHamburgerMenu onClick={() => setIsOpen(!isOpen)} />
 
 

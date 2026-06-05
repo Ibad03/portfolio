@@ -21,7 +21,7 @@ const Contact = () => {
               <h3 className="text-2xl font-semibold mb-4">
                 Get In Touch
               </h3>
-              <p className="text-[#e019bc]">
+              <p>
                 Feel free to contact us for any questions,
                 collaborations, or project discussions.
               </p>
@@ -30,21 +30,21 @@ const Contact = () => {
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold">Email</h4>
-                <p className="text-[#e019bc]">
+                <p >
                   ibad30256@gmail.com
                 </p>
               </div>
 
               <div>
                 <h4 className="font-semibold">Phone</h4>
-                <p className="text-[#e019bc]">
+                <p >
                   +92 324 3636771
                 </p>
               </div>
 
               <div>
                 <h4 className="font-semibold">Location</h4>
-                <p className="text-[#e019bc]">
+                <p >
                   Hyderabad, Pakistan
                 </p>
               </div>
@@ -52,7 +52,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <form className="bg-[#7b2cbf] p-8 rounded-2xl shadow-md space-y-5 text-white">
+          <form className="bg-black p-8 rounded-2xl shadow-md space-y-5 text-white">
             <input
               type="text"
               placeholder="Your Name"
@@ -79,7 +79,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full bg-[#e019bc] text-white py-3 rounded-lg hover:bg-[#7b2cbf]  transition"
+              className="w-full bg-[#7b2cbf] text-white py-3 rounded-lg hover:bg-[#7b2cbf]  transition"
             >
               Send Message
             </button>

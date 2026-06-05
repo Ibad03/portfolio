@@ -1,27 +1,28 @@
 import Heading from "./Heading";
-
+import vrWeb from '../assets/VRweb.png'
+import travel from '../assets/travel.png'
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Website",
+    title: "Jadoo-Travel & Tourism",
     description:
-      "A modern e-commerce platform with product filtering, cart functionality, and secure checkout.",
+      "A beautifully designed, modern travel landing page that helps users explore destinations, book flights, and discover hotels with a seamless UI.",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
+      travel,
 
-    github: "#",
-    live: "#",
+    github: " https://github.com/Ibad03/Travel-web",
+    live: "https://travel-web-tmcv.vercel.app/",
   },
-  {
+  {   
     id: 2,
-    title: "Task Management App",
+    title: "VR Development Platform",
     description:
-      "A productivity application for managing tasks, deadlines, and team collaboration.",
+      "A sleek and immersive landing page for Virtual Reality development tools, featuring modern dark-themed components, pricing plans, and documentation layout.",
     image:
-      "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800",
+      vrWeb,
     
-    github: "#",
-    live: "#",
+    github: "https://github.com/Ibad03/VirtualR-",
+    live: "https://virtual-r-two-ashy.vercel.app/",
   },
   {
     id: 3,
@@ -44,9 +45,9 @@ const Projects = () => {
     >
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-14 ">
           <Heading heading="Projects"/>
-          <p className="text-gray-400 -mt-4 max-w-2xl mx-auto">
+          <p className="text-white -mt-4 max-w-2xl mx-auto">
             Some of the projects I've worked on recently.
           </p>
         </div>
@@ -56,15 +57,15 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-[#e019bc] rounded-2xl overflow-hidden border border-gray-800
-              text-black hover:border-cyan-500 transition-all duration-300 hover:-translate-y-2"
+              className="bg-black rounded-2xl text-white overflow-hidden border border-gray-800
+              text-black hover:border-white transition-all duration-300 hover:-translate-y-2"
             >
               {/* Image */}
-              <div className="overflow-hidden">
+              <div className="overflow-hidden ">
                 <img
-                  src={project.image}
+                  src={project.image} 
                   alt={project.title}
-                  className="w-full h-56 object-cover hover:scale-110 transition duration-500"
+                  className="w-full h-56  bg-cover hover:scale-110 transition duration-500"
                 />
               </div>
 
@@ -74,7 +75,7 @@ const Projects = () => {
                   {project.title}
                 </h3>
 
-                <p className="text-black text-sm leading-relaxed mb-4">
+                <p className=" text-sm leading-relaxed mb-4">
                   {project.description}
                 </p>
 

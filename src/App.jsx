@@ -8,7 +8,7 @@ import Contact from './Components/Contact'
 
 const App = () => {
   return (
-    <div className='w-full min-h-[100vh] bg-[#16042C] bg-gradient-to-br from-[#16042C] via-[#320c5c] to-[#E019BC]'>
+    <div className='w-full min-h-[100vh] bg-[#16042C] bg-gradient-to-br from-[#16042C] via-[#320c5c] to-black'>
       <Navbar/>
       <Home/>
       <Who_I_am/>
